@@ -40,7 +40,8 @@
     background: var(--lin_gradi);
     border-radius: 20px;
     font-weight: 700;
-    font-style: italic; /*staus*/
+
+    font-style: italic; 
     transition: all 0.2s ease-in;
 }
 
@@ -48,3 +49,4 @@
     background-color: blue;
     font-family: var(--font-1);
 }
+
