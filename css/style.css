@@ -3,16 +3,24 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(6, 6, 67);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* navigation menu */
+
 .navbar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: var(--main-bg-col);
-    height: 3.2rem;
+    height: 3.6rem;
 }
 
 .logo{
-    font-size: 26px;
+    font-size: 2rem;
     color: var(--text-col);
     font-weight: 600;
     text-decoration: none;
@@ -45,8 +53,253 @@
     transition: all 0.2s ease-in;
 }
 
-.firstsection{
-    background-color: blue;
-    font-family: var(--font-1);
+/* main  section*/
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5.2rem 0rem;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftside {
+    /* background-color: red; */
+    font-size: 2.7rem;
+}
+
+.rightside {
+    /* background-color: red; */
+}
+
+.rightside img {
+    width: 85%;
+    background: transparent;
+
+}
+
+main hr {
+    border: 0;
+    color: var(--text-col);
+    background: var(--text-col);
+    height: 0.02rem;
+    margin: 34px 90px;
+}
+
+
+
+#element {
+    color: var(--text-purple);
+}
+
+.leftside .button {
+    padding: 29px 0px;
+}
+
+.btn {
+    padding: 10px 15px;
+    background: linear-gradient(180deg, #2c2c8c, #3d3da6);
+    border: 2px solid rgb(128 40 201 / 0%);
+    color: var(--text-col);
+    border-radius: 5px;
+
+}
+
+.btn a {
+    color: var(--text-col);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    padding: 10px 15px;
+    color: var(--text-col);
+    background: linear-gradient(180deg, #5b5bd0, #5252d0);
+    border: 2px solid rgba(129, 40, 201, 0);
+    cursor: pointer;
+    box-shadow: var(--box-shad);
+    transition: 0.5s;
+}
+
+button .fa-solid {
+    font-size: 15px;
+    padding: 0px 8px;
+}
+
+/* Secondection */
+
+.secondsection {
+    max-width: 80%;
+    margin: auto;
+    height: 50vh;
+}
+
+.secondsection h1 {
+    font-size: 1.8rem;
+}
+
+.text-gray {
+    color: var(--text-gray);
+    font-size: 0.93rem;
+}
+
+.secondsection .box {
+    width: 76vw;
+    height: 1px;
+    background: white;
+    margin: 55px 0px;
+    display: flex;
+}
+
+.secondsection .vertically {
+    width: 1px;
+    height: 90px;
+    background-color: white;
+    margin: 0px 104px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -29px;
+    left: -7px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 67px;
+    width: 143px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 76px;
+    width: 150px;
+    font-size: 9px;
+    color: gray;
+}
+
+
+.thirdsection {
+    max-width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.calltoact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 0px;
+
+}
+
+.calltoact h2 {
+    padding-bottom: 34px;
+    text-align: center;
+    font-size: 3.8rem;
+    line-height: 4.9rem;
+    width: 50vw;
+
+}
+.calltoact .ct-btn{
+    padding: 17px 35px;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: var(--fot-bg-col);
+    padding: 75px 69px;
+    height: 18vh;
+}
+
+.footer-logo {
+    font-size: 34px;
+    font-weight: 100;
+    color: var(--footer-texcol);
+}
+
+.footer-logo-1 {
+    font-size: 2.2rem;
+    line-height: 22px;
+}
+
+.footer ul li {
+    list-style: none;
+
+}
+
+.footer ul li a {
+    color: var(--footer-texcol);
+    text-decoration: none;
+    padding: 4px 0px;
+    display: inline-flex;
+}
+
+.footer ul li a:hover {
+    color: white;
+
+
+}
+
+.fa-brands {
+    font-size: 21px;
+    padding: 21px 23px 15px 0px;
+    color: var(--footer-texcol);
+
+}
+
+.fa-brands:hover {
+    font-size: 21px;
+    padding: 21px 23px 15px 0px;
+    color: white;
+}
+
+.copyright {
+    color: var(--text-purple);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.copyright:hover {
+    color: var(--footer-texcol);
+    text-decoration: none;
+
+}
+
+.copy-right {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 22px 0px;
+    background: #0F0F5C;
+}
+
+.copy-right ul li {
+    list-style: none;
+
+}
+
+.copy-right ul li a {
+    text-decoration: none;
+    color: var(--footer-texcol);
+
+}
+
+.copy-right ul li a:hover {
+    color: white;
+
+
 }
 
