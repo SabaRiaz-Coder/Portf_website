@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--main-bg-col);
+    height: 3.2rem;
+}
+
+.logo{
+    font-size: 26px;
+    color: var(--text-col);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+   
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--text-col);
+    padding: 2px 25px;
+    margin: 0px 9px;
+}
+
+.navbar ul li a:hover {
+    background: var(--lin_gradi);
+    border-radius: 20px;
+    font-weight: 700;
+    font-style: italic; /*staus*/
+    transition: all 0.2s ease-in;
+}
+
+.firstsection{
+    background-color: blue;
+    font-family: var(--font-1);
+}

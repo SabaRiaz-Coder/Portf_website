@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Poppins&display=swap');
+:root{
+    --main-bg-col: #00005C;
+    --text-col: white;
+    --lin_gradi:linear-gradient(90deg, rgb(116, 112, 185) 0%, rgb(36, 36, 166) 35%, rgba(0,212,255,1) 100%);
+    --font-1: 'Baloo Bhai 2', sans-serif;
+    --font-2: 'Poppins', sans-serif;
+    --font-3: 'Courier New', Courier, monospace;
+}
+
+.font-1{
+    font-family: var(--font-1);
+}
+
+.font-2{
+    font-family: var(--font-2);
+}
+
+.font-2{
+    font-family: var(--font-3);
+}
